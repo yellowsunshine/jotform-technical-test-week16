@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="Technical Test(failed)">
+    <parameter name="firstName" value="John"/>
+    <parameter name="lastName" value="Smith"/>
+    <parameter name="securityQuestion" value="Name of the first pet"/>
+    <parameter name="securityAnswer" value="Puppy"/>
+    <parameter name="expectedMessage" value="Your submission has been received!"/>
+    <classes>
+      <class name="com.jotform.form.testsuite.TechnicalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="technicalTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.jotform.form.testsuite.TechnicalTest -->
+    </classes>
+  </test> <!-- Technical Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

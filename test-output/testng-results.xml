@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on the Next Button : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> css selector: #jfCard-welcome-start]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter the first name : John<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter the last name : Smith<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the next button on test form page : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@data-type='control_fullname']//button[@aria-label='Next'][normalize-space()='Next']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Next Button on signature page : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@data-type='control_signature']//button[@aria-label='Next'][normalize-space()='Next']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the date : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //span[@aria-label='Calendar icon']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the next button on date page : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@data-type='control_datetime']//button[@aria-label='Next'][normalize-space()='Next']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selecting from question dropdown : Name of the first pet<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering the security answer : Puppy<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Submit button : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //button[@class='jfInput-button forSubmit form-submit-button u-right']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the submission message: [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@class='jfThankYou-description form-subHeader']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="22901" started-at="2021-12-22T23:54:03Z" finished-at="2021-12-22T23:54:25Z">
+    <groups>
+    </groups>
+    <test name="Technical Test" duration-ms="22901" started-at="2021-12-22T23:54:03Z" finished-at="2021-12-22T23:54:25Z">
+      <class name="com.jotform.form.testsuite.TechnicalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jotform.form.testsuite.TechnicalTest@7921b0a2]" name="setUp" is-config="true" duration-ms="5145" started-at="2021-12-22T23:54:03Z" finished-at="2021-12-22T23:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.jotform.form.testsuite.TechnicalTest@7921b0a2]" name="init" is-config="true" duration-ms="68" started-at="2021-12-22T23:54:08Z" finished-at="2021-12-22T23:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="technicalTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jotform.form.testsuite.TechnicalTest@7921b0a2]" name="technicalTest" duration-ms="16815" started-at="2021-12-22T23:54:08Z" finished-at="2021-12-22T23:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Name of the first pet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Puppy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your submission has been received!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the Next Button : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> css selector: #jfCard-welcome-start]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter the first name : John<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter the last name : Smith<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the next button on test form page : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@data-type='control_fullname']//button[@aria-label='Next'][normalize-space()='Next']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Next Button on signature page : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@data-type='control_signature']//button[@aria-label='Next'][normalize-space()='Next']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the date : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //span[@aria-label='Calendar icon']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the next button on date page : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@data-type='control_datetime']//button[@aria-label='Next'][normalize-space()='Next']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selecting from question dropdown : Name of the first pet<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering the security answer : Puppy<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Submit button : [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //button[@class='jfInput-button forSubmit form-submit-button u-right']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the submission message: [[ChromeDriver: chrome on WINDOWS (9c34b9d5ff271621fb369fcbd036629f)] -> xpath: //div[@class='jfThankYou-description form-subHeader']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- technicalTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jotform.form.testsuite.TechnicalTest@7921b0a2]" name="tearDown" is-config="true" duration-ms="853" started-at="2021-12-22T23:54:25Z" finished-at="2021-12-22T23:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jotform.form.testsuite.TechnicalTest -->
+    </test> <!-- Technical Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
